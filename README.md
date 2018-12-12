@@ -31,7 +31,7 @@ Select the `sat_img_env` env from the drop-down menu at `Kernel > Change kernel 
 <img src="https://github.com/robmarkcole/reproducible-satellite-image-analysis/blob/master/data/select_env.png" width="700">
 </p>
 
-You are now using the `sat_img_env` env and can start working. EXCEPT WE ARE NOT, AND ARE STILL IN BASE..
+You are now using the `sat_img_env` env and can start working. EXCEPT WE ARE NOT, AND ARE STILL IN BASE.. I think this is a Mac issue, because the process works fine on Windows. https://github.com/Anaconda-Platform/nb_conda_kernels/issues/112
 
 <p align="center">
 <img src="https://github.com/robmarkcole/reproducible-satellite-image-analysis/blob/master/data/env_usage.png" width="1000">
