@@ -27,6 +27,10 @@ I usually run Jupyter from my `base` env, and we need to make the env available.
 
 Select the `sat_img_env` env from the drop-down menu at `Kernel > Change kernel > sat_img_env` and start working.
 
+<p align="center">
+<img src="https://github.com/robmarkcole/reproducible-satellite-image-analysis/blob/master/data/select_env.png" width="700">
+</p>
+
 ## Data
 Github allows large files to be uploaded, although these should be kept to a minimum. If more than a couple of satellite images are required for analysis, it is best to put them in a public S3 bucket. I typically put imagery in a `data` folder.
 
