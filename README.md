@@ -19,7 +19,7 @@ Use a conda environment to isolate required packages, and write an `environment.
 (sat_img_env) $ conda env export > environment.yml
 ```
 
-I usually run Jupyter from my `base` env, and we need to make the env available. In a second terminal:
+I usually run Jupyter from my `base` env, and we need to make the `sat_img_env` env available. In a second terminal:
 ```
 (base) $ python -m ipykernel install --user --name sat_img_env
 (base) $ jupyter notebook
@@ -31,7 +31,7 @@ Select the `sat_img_env` env from the drop-down menu at `Kernel > Change kernel 
 <img src="https://github.com/robmarkcole/reproducible-satellite-image-analysis/blob/master/data/select_env.png" width="700">
 </p>
 
-You are now using the `sat_img_env` env and can start working. EXCEPT WE ARE NOT..
+You are now using the `sat_img_env` env and can start working. EXCEPT WE ARE NOT, AND ARE STILL IN BASE..
 
 <p align="center">
 <img src="https://github.com/robmarkcole/reproducible-satellite-image-analysis/blob/master/data/env_usage.png" width="1000">
