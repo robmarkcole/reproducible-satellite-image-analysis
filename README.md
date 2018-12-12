@@ -25,10 +25,16 @@ I usually run Jupyter from my `base` env, and we need to make the env available.
 (base) $ jupyter notebook
 ```
 
-Select the `sat_img_env` env from the drop-down menu at `Kernel > Change kernel > sat_img_env` and start working.
+Select the `sat_img_env` env from the drop-down menu at `Kernel > Change kernel > sat_img_env`:
 
 <p align="center">
 <img src="https://github.com/robmarkcole/reproducible-satellite-image-analysis/blob/master/data/select_env.png" width="700">
+</p>
+
+You are now using the `sat_img_env` env and can start working. EXCEPT WE ARE NOT..
+
+<p align="center">
+<img src="https://github.com/robmarkcole/reproducible-satellite-image-analysis/blob/master/data/env_usage.png" width="1000">
 </p>
 
 ## Data
